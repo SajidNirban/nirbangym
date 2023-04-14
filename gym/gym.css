@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #banner {
+    background-image: url("Images/banner.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+  }
+  
+  #banner h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  #banner p {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+  .button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  #classes {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  #classes ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #classes li {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  #classes img {
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    object-fit: cover;
+  }
+  
+  #classes h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  #classes p {
+    font-size: 1.2em;
+  }
+  
+  #schedule {
+    padding: 50px;
+    background-color: #ddd;
+  }
+  
+  #schedule h2 {
+    margin-top: 0;
+  }
+  
+  #schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+  
+  #schedule th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #schedule td {
+    border: 1px solid #333;
+    padding: 10px;
+  }
+  
+  #membership {
+    padding: 50px;
+  }
+  
+  #membership h2 {
+    margin-top: 0;
+  }
+  
+  #membership ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #membership li {
+    margin-bottom: 20px;
+    }
+    
+    #membership .button {
+    margin-top: 20px;
+    }
+    
+    #contact {
+    padding: 50px;
+    background-color: #eee;
+    }
+    
+    #contact h2 {
+    margin-top: 0;
+    }
+    
+    form label {
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    }
+    
+    form textarea {
+    height: 100px;
+    }
+    
+    form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    form input[type="submit"]:hover {
+    background-color: #555;
+    }
+    
+    @media (max-width: 767px) {
+    #banner {
+    padding: 50px;
+    }
+    
+    #banner h1 {
+    font-size: 2em;
+    }
+    
+    #banner p {
+    font-size: 1em;
+    }
+    
+    #classes li {
+    flex-wrap: wrap;
+    }
+    
+    #classes img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    }
+    
+    #classes h3 {
+    font-size: 1.5em;
+    }
+    
+    #classes p {
+    font-size: 1em;
+    }
+    
+    #schedule th,
+    #schedule td {
+    padding: 5px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+    margin-bottom: 10px;
+    }
+    
+    form input[type="submit"] {
+    margin-top: 10px;
+    }
+    }
+    
+    @media (min-width: 768px) {
+    #classes li:nth-child(odd) {
+    flex-direction: row-reverse;
+    }
+    }
+  
